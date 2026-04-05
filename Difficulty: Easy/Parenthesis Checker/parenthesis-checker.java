@@ -10,7 +10,8 @@ class Solution {
         }
         
         else {
-            if(stack.isEmpty()) {
+           
+ if(stack.isEmpty()) {
                 return false;
             }
             
