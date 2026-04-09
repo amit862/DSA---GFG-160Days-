@@ -1,6 +1,6 @@
 class Solution {
     public long subarrayXor(int arr[], int k) {
-        // code here
+        
     Map<Integer, Integer> map = new HashMap<>();
     
     int xor = 0;
