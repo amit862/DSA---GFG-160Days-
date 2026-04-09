@@ -15,7 +15,7 @@ class Solution {
         return false;
     }
     public int aggressiveCows(int[] stalls, int k) {
-        // code here
+        
      Arrays.sort(stalls);
      
      int low = 1;
