@@ -1,18 +1,22 @@
 class Solution {
-    public int getSecondLargest(int[] arr) {
-        // code here
+    int getSecondLargest(int[] arr) {
         int largest = -1;
         int secondLargest = -1;
-        
-        for(int num: arr) {
-            if(num>largest){
+
+        for (int num : arr) {
+            
+            // Update largest and second largest
+            if (num > largest) {
                 secondLargest = largest;
                 largest = num;
-            } else if(num < largest && num > secondLargest) {
+            }
+            
+            // Update only second largest
+            else if (num > secondLargest && num != largest) {
                 secondLargest = num;
             }
         }
+
         return secondLargest;
     }
 }
-
