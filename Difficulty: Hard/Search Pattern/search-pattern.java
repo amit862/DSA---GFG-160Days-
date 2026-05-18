@@ -23,6 +23,7 @@ class Solution {
                 j = lps[j - 1];
             }
         }
+                
             else{
                 if(j != 0) {
                     j = lps[j-1];
