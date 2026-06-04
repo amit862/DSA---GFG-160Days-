@@ -13,7 +13,7 @@ class Solution {
              count += merge(arr, left, mid, right);
              
          }
-         return count;
+         return count; //count
      }
      
      static int merge(int arr[], int left, int mid, int right) {
